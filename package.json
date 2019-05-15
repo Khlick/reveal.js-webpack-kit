@@ -4,8 +4,7 @@
   "description": "webpack-powered reveal.js presentations",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-<<<<<<< HEAD
+    "test": "echo \"Error: no test specified\"&& exit 1",
     "live-fa-css": "set NODE_ENV=dev-server&& set FONT_AWESOME='css'&& webpack-dev-server --mode development",
     "live-fa-svg": "set NODE_ENV=dev-server&& set FONT_AWESOME='svg'&& webpack-dev-server --mode development",
     "dev-fa-css": "set NODE_ENV=development&& set FONT_AWESOME='css'&& webpack --mode development",
@@ -13,15 +12,6 @@
     "build-fa-css": "set NODE_ENV=production&& set FONT_AWESOME='css'&& webpack --mode production",
     "build-fa-svg": "set NODE_ENV=production&& set FONT_AWESOME='svg'&& webpack --mode production",
     "build-web": "set NODE_ENV='production-web-css'&& set FONT_AWESOME='css'&& webpack --mode production"
-=======
-    "live-fa-css": "NODE_ENV=dev-server FONT_AWESOME='css' webpack-dev-server --open --mode development",
-    "live-fa-svg": "NODE_ENV=dev-server FONT_AWESOME='svg' webpack-dev-server --open --mode development",
-    "dev-fa-css": "NODE_ENV=development FONT_AWESOME='css' webpack --mode development",
-    "dev-fa-svg": "NODE_ENV=development FONT_AWESOME='svg' webpack --mode development",
-    "build-fa-css": "NODE_ENV=production FONT_AWESOME='css' webpack --mode production",
-    "build-fa-svg": "NODE_ENV=production FONT_AWESOME='svg' webpack --mode production",
-    "build-web": "NODE_ENV='production-web-css' FONT_AWESOME='css' webpack --mode production"
->>>>>>> origin/master
   },
   "repository": {
     "type": "git",
@@ -54,11 +44,7 @@
     "terser-webpack-plugin": "^1.2.3",
     "webpack": "^4.30.0",
     "webpack-bundle-analyzer": "^2.13.1",
-<<<<<<< HEAD
-    "webpack-cli": "^3.3.0",
-=======
     "webpack-cli": "^3.3.1",
->>>>>>> origin/master
     "webpack-dev-server": "^3.3.1"
   },
   "dependencies": {
