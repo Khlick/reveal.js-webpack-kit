@@ -6,13 +6,13 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "make-custom-tex-extension": "cd src/_scripts/reveal-plugins/tex-components && ../../../../node_modules/mathjax-full/components/bin/pack && mkdir -p ../../../../dist/lib/mathjax/tex-components && cp tex_fragments.min.js ../../../../dist/lib/mathjax/tex-components/tex_fragments.min.js",
-    "live-fa-css": "NODE_ENV=dev-server FONT_AWESOME='css' webpack-dev-server --mode development",
-    "live-fa-svg": "NODE_ENV=dev-server FONT_AWESOME='svg' webpack-dev-server --mode development",
-    "dev-fa-css": "NODE_ENV=development FONT_AWESOME='css' webpack --mode development",
-    "dev-fa-svg": "NODE_ENV=development FONT_AWESOME='svg' webpack --mode development",
-    "build-fa-css": "NODE_ENV=production FONT_AWESOME='css' webpack --mode production",
-    "build-fa-svg": "NODE_ENV=production FONT_AWESOME='svg' webpack --mode production",
-    "build-web": "NODE_ENV='production-web-css' FONT_AWESOME='css' webpack --mode production"
+    "live-fa-css": "set NODE_ENV=dev-server && set FONT_AWESOME='css' && webpack-dev-server --mode development",
+    "live-fa-svg": "set NODE_ENV=dev-server && set FONT_AWESOME='svg' && webpack-dev-server --mode development",
+    "dev-fa-css": "set NODE_ENV=development && set FONT_AWESOME='css' && webpack --mode development",
+    "dev-fa-svg": "set NODE_ENV=development && set FONT_AWESOME='svg' && webpack --mode development",
+    "build-fa-css": "set NODE_ENV=production && set FONT_AWESOME='css' && webpack --mode production",
+    "build-fa-svg": "set NODE_ENV=production && set FONT_AWESOME='svg' && webpack --mode production",
+    "build-web": "set NODE_ENV='production-web-css' && set FONT_AWESOME='css' && webpack --mode production"
   },
   "repository": {
     "type": "git",
